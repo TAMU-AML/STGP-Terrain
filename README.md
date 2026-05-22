@@ -135,10 +135,10 @@ pip install numpy pandas torch torchbnn tensorflow lightgbm scikit-learn jupyter
 
 1. Download the repository as a ZIP file and extract it to any directory, or clone it with Git:
    ```
-   git clone https://github.com/TAMU-AML/STGP-Terrain-Aware-Power-Curve.git
+   [git clone https://github.com/TAMU-AML/STGP-Terrain-Aware-Power-Curve.git](https://github.com/anonymous-stgp-terrain/STGP-Terrain.git)
    ```
 
-2. Open a terminal and navigate to the `STGP-Terrain-Aware-Power-Curve` folder.
+2. Open a terminal and navigate to the `STGP-Terrain-main` folder.
 
 3. Run the reproduction script for the table(s) you want.
 
