@@ -18,7 +18,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e "install.packages(c('dplyr', 'data.table', 'readr', 'tidyr', 'twingp'), repos='https://cloud.r-project.org')"
+          Rscript -e "install.packages(c('dplyr', 'data.table', 'readr', 'tidyr', 'twingp','hetGP'), repos='https://cloud.r-project.org')"
 
       - name: Set up Python
         uses: actions/setup-python@v5
