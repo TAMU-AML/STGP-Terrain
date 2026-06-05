@@ -1,0 +1,10 @@
+numpy
+pandas
+torch
+torchbnn
+tensorflow
+lightgbm
+xgboost
+scikit-learn
+jupyter
+nbconvert
