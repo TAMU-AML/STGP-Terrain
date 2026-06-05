@@ -61,6 +61,10 @@ In addition, the BHM method is significantly slower than the other methods consi
 ```
 STGP-Terrain-Aware-Power-Curve/
 │
+├──requirements.txt/
+│
+├──requirements_r.R/
+│
 ├── data/
 │   ├── Turbine_i_2017.csv
 │   ├── Turbine_i_2018.csv
@@ -123,13 +127,12 @@ The following software must be installed and available on your system `PATH` bef
 | Jupyter | any recent | install via `pip install notebook nbconvert` |
  
 Required R packages: `dplyr`, `data.table`, `twingp`, `readr`, `tidyr`, `hetGP`  
-Required Python packages: `numpy`, `pandas`, `torch`, `torchbnn`, `tensorflow`, `lightgbm`, `scikit-learn`, `jupyter`, `nbconvert`
- 
-Install all Python packages in one command:
-```
-pip install numpy pandas torch torchbnn tensorflow lightgbm scikit-learn jupyter nbconvert
-```
- 
+Required Python packages: `numpy`, `pandas`, `torch`, `torchbnn`, `tensorflow`, `lightgbm`, `xgboost`, `scikit-learn`, `jupyter`, `nbconvert`
+
+To install all R dependencies at once, run: 
+Rscript requirements_r.R
+To install all Python dependencies at once, run:
+pip install -r requirements.txt 
 
 ## Instructions to Reproduce Results
 
