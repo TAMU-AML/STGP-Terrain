@@ -80,6 +80,11 @@ STGP-Terrain-Aware-Power-Curve/
 ├── run_table4.bat          # Windows convenience wrapper
 │
 ├── code/
+│   ├── supplement
+│   ├── Figures
+│      ├── fig_4.R
+│      ├── fig_5.R
+│      ├── fig_7.R
 │   ├── update_final_results.R
 │   ├── update_final_results.py
 │   ├── Table2-Table3(STGP).R
@@ -204,7 +209,7 @@ Tables 2 and 3 use the **same fitted models** but evaluate predictions on **two 
 | STGP (proposed) | 6 minutes |
 | **Total** | **~190 minutes** |
 
-Runtimes were measured on a single workstation. Results may vary depending on hardware.
+Runtimes were measured on a single workstation. Runtime for figures is negligible. Results may vary depending on hardware.
 
 
 ### Note on Runtime Performance
