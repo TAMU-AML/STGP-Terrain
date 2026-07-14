@@ -214,3 +214,23 @@ We observed that the runtime of several methods, including **STGP**, is signific
 https://github.com/david-cortes/R-openblas-in-windows
 
 Without OpenBLAS, the runtime of some methods may be **up to two times slower**.
+
+
+### Supplemental Material Results
+To reproduce results in Supplemental Material, you can use following codes stored in STGP-Terrain-Aware-Power-Curve/code/supplement/
+STGP-Terrain-Aware-Power-Curve/
+│
+├── code/
+│   ├── supplement/
+│   │   ├── S1.py
+│   │   ├── S1.R
+│   │   ├── S4.R
+│   │   ├── S5.R
+
+S1: X-only results in the table of S1 is already reproduced in Table 2 and 3 of main table. X+S results for XGBoost, Multi-layer NN, and TwinGP are compiled in S1.py and S1.R. For Bayesian NN, X+S version is reproduced in main results, so we run X only version here. Creates results/supplement/table_s1.csv
+
+S4: Creates the table for alternative kernel combinations using one R code. The Exponential/Rational Quadratic row is already reproduced in Table 2 and 3 of main table, so only the remaining 6 kernel combinations are refit here. Creates results/supplement/table_s4.csv
+
+S5: STGP (observation noise included) implementation is borrowed from main paper STGP implementation, the STGP (both observation and process noise) version is implemented in S5.R. Creates results/supplement/table_s5.csv
+
+
