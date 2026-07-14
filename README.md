@@ -211,6 +211,8 @@ Tables 2 and 3 use the **same fitted models** but evaluate predictions on **two 
 
 Runtimes were measured on a single workstation. Runtime for figures is negligible. Results may vary depending on hardware.
 
+### Once results for tables are generated, you can run the relevant code from code/Figures/ to reproduce each figure.
+
 
 ### Note on Runtime Performance
 
