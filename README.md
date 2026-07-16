@@ -2,7 +2,6 @@
 
 Reproducibility report for the paper "Spatio-Temporal Gaussian Process for Building Terrain-Incorporating Wind Power Curves" by Ahmadreza Chokhachian, V. Roshan Joseph, and Yu Ding.
 
-This repository is also available via GitHub.
 
 ## Datasets
 
